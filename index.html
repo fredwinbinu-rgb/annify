@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Annify ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="loader">
+
+    <div class="loader-content">
+
+        <h1>Annify ♡</h1>
+
+        <h2>Happy Birthday Annie 🎂</h2>
+
+        <p>Loading your little music world...</p>
+
+    </div>
+
+</div>
+
+<div class="stars"></div>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+
+<div class="hero-content">
+
+<h1>Annify ♡</h1>
+
+<h2>Happy Birthday Annie</h2>
+
+<p>Every song has a memory.</p>
+
+<a href="#songs" class="start-btn">
+🎵 Annie Padan Povanee ♡
+</a>
+
+</div>
+
+</section>
+
+
+
+<section id="songs">
+
+    <h2 class="songs-title">🎵 Anniekutty's Songs ♡</h2>
+
+    <div class="player-card">
+
+        <div class="record-container">
+
+            <div class="vinyl" id="vinyl">
+
+                <div class="record-rings"></div>
+
+                <img
+                    src="assets/song1.jpeg"
+                    id="cover"
+                    class="cover"
+                >
+
+                
+
+            </div>
+
+            <div class="tonearm"></div>
+
+        </div>
+
+        <h3 id="songTitle">
+            Innum Konjam Neram
+        </h3>
+
+        <p id="songCounter">
+            1 / 6
+        </p>
+
+        <audio id="audio">
+            <source src="music/song1.mp3">
+        </audio>
+
+        <div class="controls">
+
+            <button id="prev">⏮</button>
+
+            <button id="play">▶</button>
+
+            <button id="next">⏭</button>
+
+        </div>
+
+        <input
+            type="range"
+            id="progress"
+            value="0"
+            min="0"
+            max="100">
+
+    </div>
+
+</section>
+<script src="script.js"></script>
+
+</body>
+
+</html>
